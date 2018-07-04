@@ -1,21 +1,18 @@
-# MyNif
+# NIF Demo
 
 Demo app of how to use NIF (Native Elixir Functions) in Elixir.
 
-## Installation
+## Running the Demo
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `my_nif` to your list of dependencies in `mix.exs`:
+Start `iex` and the code (including the native code) should compile.
 
-```elixir
-def deps do
-  [
-    {:my_nif, "~> 0.1.0"}
-  ]
-end
-```
+`iex -S mix`
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/my_nif](https://hexdocs.pm/my_nif).
+Then you can call a native function from Elixir.
+
+`ExCompare.compare(1,2)`
+
+## Native Code
+
+The Native code is in the `c_src` directory.
 
