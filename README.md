@@ -15,4 +15,5 @@ Then you can call a native function from Elixir.
 ## Native Code
 
 The Native code is in the `c_src` directory.
+Compilation probably only works on Darwin (Mac) right now.
 
