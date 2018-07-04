@@ -1,6 +1,6 @@
 # MyNif
 
-**TODO: Add description**
+Demo app of how to use NIF (Native Elixir Functions) in Elixir.
 
 ## Installation
 
