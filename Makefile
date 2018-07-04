@@ -4,6 +4,7 @@ ERL_INCLUDE_PATH= \
 C_SRC_OUTPUT ?= priv/nif_compare.so
 
 all:
+	mkdir -p priv/
 	gcc -fPIC -I$(ERL_INCLUDE_PATH) -dynamiclib -undefined dynamic_lookup -o $(C_SRC_OUTPUT) c_src/nif_comparator.c c_src/comparator.c
 
 clean: 
